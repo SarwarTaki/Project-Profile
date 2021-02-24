@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sarwar's Personal Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section>
+		<nav>
+			<a href="#" class="logo">My profile</a>
+			<ul>
+				<li><a href="#goToedu" class="active" >Education</a></li>
+				<li><a href="#goToex">Experience</a></li>
+				<li><a href="#goToLinkedin">Project</a></li>
+				<li><a href="#goToAbout">About</a></li>
+			</ul>			
+		</nav>	
+	<!---------para----->
+	<div class="text-container">
+		<p>Hello,</p>
+		<p>The name is Sarwar Siddiqui Taki</p>
+		<p>B.Sc.(Ongoing), Computer Science and Engineering,<br> Brac Univerity</p>
+		<p><button class="hire-btn"><a href="#goToAbout" id="readmelink">Read About Me</a></button></p>
+		 <p id="linktext">Links:</p>
+                <a href = "https://www.facebook.com/sarwar.taki.1/"><img src = "images/facebook.png" id="fb"></a>
+                <a href = "https://www.linkedin.com/in/sarwar-taki-237a70172"><img src = "images/linkedin.png"></a>
+                <a href = "https://github.com/SarwarTaki" id="goToLinkedin"><img src = "images/github.png"></a>
+                <a href = "https://piazza.com/careers/dashboard#/my_profile"><img src = "images/piazza.png"></a>
+                <a href = "https://www.bracu.ac.bd/"><img src = "images/bracu.png"></a>
+		
+	</div>	
+	<img src="images/sarwar.jpg" class="model" alt="model">
+	<div class="quotes">
+		<h1>"Never forget what you are. The rest of the world will not. Wear it like armor and it can never be used to hurt you"</h1>
+	</div>
+	</section>
+	<div class="about-container">
+		<div class="about-text">
+			<h3 class="education" style="position: relative;right: 190px; top: 25px;" id="goToex">Experience:</h3>
+			<ol>
+				<li>Director of Event Management in Bracu Business and Economics Forum</li>
+				<li>Organiser of Corporate Mastermind from Bracu Business and Economics Forum</li>
+				<li>Volunteer in Bracathon</li>
+			</ol>
+		</div>
+			 <div class="education" style="position: relative; left: 300px;top: 50px;">
+                <h1 style="font-style:  'Audiowide', cursive;" id="goToedu">EDUCATION:</h1>
+                <div class="table">
+                    <table width="100%">
+                        <tr>
+                            <th> Degree </th>
+                            <th> Subject and Institution </th>
+                        </tr>
+                        <tr>
+                            <td> SSC  : </td>
+                            <td> Science, Chittagong Police Institution (2015) </td>
+                        </tr>
+                        <tr>
+                            <td> HSC : </td>
+                            <td> Science, Hajera Taju Degree College (2017) </td>
+                        </tr>
+                        <tr>
+                            <td> B.Sc.: </td>
+                            <td> Computer Science at BRAC University (Ongoing) </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div> 
+
+	<div class="series">
+            <h1>Favourite TV Sreies</h1>
+            <ol>
+                <li>Game of Thrones</li>
+                <li>Sherlock Holmes</li>
+                <li>Breaking Bad</li>
+                <li>Friends</li>
+                <li>Brooklyn 99</li>
+            </ol>
+    </div>
+    <footer>
+    <div class="about">
+            <h1 id="goToAbout">ABOUT ME</h1>
+            <p>I am currently doing my B.SC degree in Computer Science and Engineering from BRAC University. Working with 
+            the technologies helps me to stay motivated to learn new languages and unravel new problem solving method. I would like to describe myself as a quick learner and also adopt in any difficult situations.<br> In addition, I like to develop my analytical skills and bring out the creative side of me by taking new challenges. Communicating with the people around me with efficiency is one of my strengths</p>
+        </div>
+     <div>
+            <b>This document was last modified on:</b>
+            <script type="text/javascript">
+                function lastmodified(){
+                    document.write(document.lastModified+"\n");
+                }
+                lastmodified();
+            </script>
+        </div>
+     </footer>
+        <div>
+            <b>Location:</b>
+            <script type="text/javascript">
+                function getLocation(){
+                    // Check whether browser supports Geolocation API or not
+                    if (navigator.geolocation) { // Supported
+                    
+                        // To add PositionOptions
+                        
+                        document.write(navigator.geolocation.getCurrentPosition(getPosition));
+                    } else { // Not supported
+                        alert("Oops! This browser does not support HTML Geolocation.");
+                    }
+                }
+                function getPosition(position){
+                    document.getElementById("location").innerHTML = 
+                        "Latitude: " + position.coords.latitude + "<br>" +
+                        "Longitude: " + position.coords.longitude;
+                }
+                getLocation();
+            </script>
+        </div>
+
+</body>
+</html>
