@@ -1,0 +1,225 @@
+@charset "utf-8"
+
+body{
+	background-color:#f6f5f5;
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+section{
+	width: 100%;
+	height: 95vh;
+	background-image: url("../images/watercolor.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+}
+nav ul{
+	display: flex;
+}
+nav ul li a{
+	margin: 30px;
+	font-family: myriad pro regular;
+	color: #505050;
+	font-size: 15px;
+	font-weight: 700;
+}
+.logo{
+	font-family: RoadTest;
+	color:#000000;
+	font-size: 22px;
+}
+.active{
+	font-weight: bold;
+	color:#2d2a2a;
+}
+.text-container p:nth-child(1){
+	font-family: calibri;
+	font-weight: bold;
+	color: #6d6d6d;
+	font-size: 22px;
+}
+.text-container p:nth-child(2){
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px
+	color: #1a1a1a;
+	font-size: 22px;
+}
+.text-container p:nth-child(3){
+	font-family: calibri;
+	letter-spacing: 1px
+	color: #1a1a1a;
+	font-size: 22px;
+	line-height: 22px;
+}
+.text-container p:{
+	line-height: 0px;
+	margin:45px 0px 25px;
+}
+.text-container img{
+    height: 35px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}    
+.text-container{
+	position: absolute;
+	left: 13%;
+	top: 42%;
+	transform: translate(-13%, -42%);
+}
+.text-container button{
+	width:120px;
+	height:32px;
+	border-radius:10px;
+	font-family:calibri;
+	font-size:14px;
+	outline:none;
+	margin: 0px 10px;
+}	
+.hire-btn{
+	border:2px solid #373636;
+	color: #373636;
+}
+button:active{
+	transform: scale(1.1);
+}
+.model{
+	height: 460px;
+	position: absolute;
+	bottom: 70px;
+	left: 70%;
+	transform:translateX(-70%);
+}
+.colomn h1{
+    font-family: system-ui;
+    margin: 560px 0px 0px 0px
+}
+.quotes{
+    width: 100%;
+	height: 25vh;
+    background-color: black;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    margin-top: 444px;
+}
+.quotes h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 35px;
+    color: rgb(121, 218, 185);
+    text-align: center;
+    margin-top: 45px;
+}
+.about-container{
+	width: 100%;
+	height: 430px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: -7% auto 20px auto;
+	position: 
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("../images/light.jpg");
+}
+.about-text{
+	width: 550px;
+}
+.about-text h3{
+	font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 75px;
+}
+.about-text ol{
+	font-family: 'Audiowide', cursive;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+    margin-top: 25px;
+}
+.table table{
+		border: 2px solid black;	
+}	
+.table th{
+		border: 1px solid black;
+}
+.table td{
+		border: 1px solid black;
+	font-family: 'Audiowide', cursive;
+	font-size: 18px 
+
+}
+.series{
+    width: 100%;
+	height: 60vh;
+    background-color: lightgrey;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin: none;
+    margin-top: 1px;
+}
+.series h1{
+    margin-top: 50px;
+    color: #2c3e50;
+    margin-left: 85px;
+    font-size: 50px;
+}
+.series ol{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 85px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.series ol li::before {
+    content: "✅";
+    display: inline-block;
+    margin-right: 0.2rem;
+    margin-bottom: 0px;
+}
+.about{
+    width: auto;
+	height: 40vh;
+    background-color: darkgrey;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    margin-top: -4px;
+}
+.about h1{
+    font-family: 'Vollkorn SC', serif;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    margin-top: 45px;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid white;
+    margin-left: 575px;
+}
+.about p{
+	font-size: 20px;
+	text-align: left;
+    margin: 20px 0px 50px 20px;
+    font-family:bold, 'Vollkorn SC', serif;
+    color:
+}
